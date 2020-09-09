@@ -66,8 +66,6 @@ modules:
           - '-DCMAKE_BUILD_TYPE=RelWithDebInfo'
           - '-DBUILD_SHARED_LIBS:BOOL=ON'
           - '-DCMAKE_INSTALL_LIBDIR:PATH=/app/lib'
-        cleanup:
-          - ''
         sources:
           - type: git
             url: https://github.com/libssh2/libssh2.git
